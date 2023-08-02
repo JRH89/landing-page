@@ -18,7 +18,7 @@ export default class MyDocument extends Document {
           <meta property="og:type" content="website" />
           <meta property="og:title" content="About My Card" />
           <meta property="og:description" content="Create and Share digital business cards." />
-          <meta property="og:image" content="/Preview.png" />
+          <meta property="og:image" content="https://about-mycard.vercel.app/Preview.png" />
 
           {/* Add other meta tags as needed */}
         </Head>
