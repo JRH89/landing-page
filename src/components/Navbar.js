@@ -13,29 +13,29 @@ const Navbar = () => {
 						</Link>
 					</li>
 					<li className='hover:scale-95 cursor-pointer duration-200'>
-						<Link to="about" smooth={true} offset={-40} duration={700}>
+						<Link to="about" smooth={true} offset={-25} duration={700}>
 							About
 						</Link>
 					</li>
 					<Dropdown title="Sections" className="p-4 text-center items-center text-black">
 						<ul className='px-4 text-black py-2'>
 							<li className='hover:scale-95 cursor-pointer duration-200'>
-								<Link to="cards" smooth={true} offset={-40} duration={700}>
+								<Link to="cards" smooth={true} offset={-25} duration={700}>
 									Cards
 								</Link>
 							</li>
 							<li className='hover:scale-95 cursor-pointer duration-200'>
-								<Link to="weather" offset={-40} smooth={true} duration={700}>
+								<Link to="weather" offset={-25} smooth={true} duration={700}>
 									Weather
 								</Link>
 							</li>
 							<li className='hover:scale-95 cursor-pointer duration-200'>
-								<Link to="todo" offset={-40} smooth={true} duration={700}>
+								<Link to="todo" offset={-25} smooth={true} duration={700}>
 									Todo
 								</Link>
 							</li>
 							<li className='hover:scale-95 cursor-pointer duration-200'>
-								<Link to="android-version" smooth={true} offset={-40} duration={700}>
+								<Link to="android-version" smooth={true} offset={-25} duration={700}>
 									Android
 								</Link>
 							</li>
@@ -43,12 +43,12 @@ const Navbar = () => {
 						{/* Add other sections in the dropdown as needed */}
 					</Dropdown>
 					<li className='hover:scale-95 cursor-pointer duration-200'>
-						<Link to="contact" smooth={true} offset={-40} duration={700}>
+						<Link to="contact" smooth={true} offset={-25} duration={700}>
 							Contact
 						</Link>
 					</li>
 					<li className='hover:scale-95 cursor-pointer duration-200'>
-						<a href="https://have-mycard.vercel.app/LoginPage?isLoggingIn=false" smooth={true} offset={-40} duration={700}>
+						<a href="https://have-mycard.vercel.app/LoginPage?isLoggingIn=false" smooth={true} offset={-25} duration={700}>
 							Sign-Up
 						</a>
 					</li>

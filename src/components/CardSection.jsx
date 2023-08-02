@@ -114,13 +114,7 @@ const CardSection = () => {
 						</div>
 					</div>
 				</div>
-				<div className="mt-4 text-center">
-					<Link to="weather" offset={-40} smooth={true} duration={500}>
-						<button className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-full">
-							Learn More
-						</button>
-					</Link>
-				</div>
+
 			</div>
 		</section>
 	)
