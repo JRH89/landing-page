@@ -12,7 +12,7 @@ export default class MyDocument extends Document {
             integrity="sha512-n8j2AIVW+xjS26+X4jIHxOcIuV3huzH1pyoytNvWt9wyWlguorHvj4l7u0Eqh7JcPRU5kT7B/GHz/axzIEhSg=="
             crossOrigin="anonymous"
           />
-
+          <link rel="icon" href="/HookerHill.jpg" />
           {/* Open Graph Meta Tags */}
           <meta property="og:url" content="http://about-mycard.vercel.app/" />
           <meta property="og:type" content="website" />
