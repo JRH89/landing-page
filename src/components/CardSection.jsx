@@ -24,30 +24,13 @@ const CardSection = () => {
 
 	const currentImage = images[currentImageIndex]
 	return (
-		<section id="cards" className="py-12 text-center px-4 bg-gradient-to-r from-gray-800 mx-auto my-auto via-gray-700 to-gray-900 text-white border-b border-white">
+		<section id="cards" className="py-12 text-center px-4 bg-gradient-to-l from-gray-800 mx-auto my-auto via-gray-700 to-gray-900 text-white border-b border-white">
 			<div className="container mx-auto">
 				<h2 className="text-3xl font-bold mb-4">Create Stunning Cards</h2>
 				<div className="grid gap-8 grid-cols-1 justify-center w-full items-center content-center">
-					<div className="flex w-full  self-center grid-cols-2">
-						<div className="p-5 place-self-center w-full">
-							<h3 className="text-xl font-semibold mb-2 underline">Showcase Your Professional Identity</h3>
-							<p>
-								With our digital business card, you can display essential contact information such as
-								your name, phone number, email, and job title. Impress your contacts with a sleek and
-								modern design that reflects your professional identity.
-							</p>
-						</div>
 
-						<div className="flex w-full   grid-cols-2">
-							<div className="p-5  w-full">
-								<h3 className="text-xl font-semibold mb-2 underline">Customize Your Online Presence</h3>
-								<p>
-									Add 1-4 links to your social media profiles, online portfolios, or personal website.
-									Showcase your work and connect with others through your digital business card.
-								</p>
-							</div></div>
-					</div>
-					<div className='flex flex-col text-center gap-10  justify-center'>
+
+					<div className='flex flex-col text-center gap-5 justify-center'>
 						<h3 className="text-xl font-semibold mb-2 underline">Choose from Three Modern Themes</h3>
 						<div className='flex w-full sm:justify-center justify-center gap-2 '>
 							<div className="flex items-center justify-center">
@@ -69,10 +52,11 @@ const CardSection = () => {
 									<div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
 
 									</div>
-									<h3 className="text-white text-xl font-semibold text-center">
+									<h3 className="text-white text-xl font-semibold text-center pt-4">
 										{currentImage.title}
 									</h3>
 								</div>
+
 								<button
 									onClick={showNextImage}
 									className="bg-white w-auto text-blue-500 px-4 py-2 rounded-r-full"
@@ -107,8 +91,31 @@ const CardSection = () => {
 						</p>
 					</div>
 				</div>
-				<div className="mt-8 text-center">
-					<Link to="weather" smooth={true} duration={500}>
+
+				<div className="flex w-full justify-center mt-4">
+					<div className="w-full max-w-screen-lg grid grid-cols-2">
+						<div className="m-5 flex flex-col">
+							<div className="bg-gray-800 rounded-lg p-6 flex-grow">
+								<h3 className="text-xl font-semibold mb-2 underline">Showcase Your Identity</h3>
+								<p className="">
+									With our digital business card, you can display essential contact information such as your
+									name, phone number, email, and job title.
+								</p>
+							</div>
+						</div>
+						<div className="m-5 flex flex-col">
+							<div className="bg-gray-800 rounded-lg p-6 flex-grow">
+								<h3 className="text-xl font-semibold mb-2 underline">Customize Your Presence</h3>
+								<p className="">
+									Add 1-4 links to your social media profiles, online portfolios, or personal website.
+									Showcase your work and connect with others through your digital business card.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div className="mt-4 text-center">
+					<Link to="weather" offset={-40} smooth={true} duration={500}>
 						<button className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-full">
 							Learn More
 						</button>

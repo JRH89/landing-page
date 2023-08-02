@@ -12,7 +12,7 @@ const Dropdown = ({ title, children }) => {
 		<li className="relative">
 			<button
 				onClick={toggleDropdown}
-				className="flex items-center space-x-1 text-gray-600 cursor-pointer"
+				className="flex items-center space-x-1 text-black cursor-pointer"
 			>
 				<span>{title}</span>
 				{isOpen ? <IoIosArrowDropup /> : <IoIosArrowDropdown />}
