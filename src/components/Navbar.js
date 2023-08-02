@@ -42,11 +42,15 @@ const Navbar = () => {
 						</ul>
 						{/* Add other sections in the dropdown as needed */}
 					</Dropdown>
-
 					<li className='hover:scale-95 cursor-pointer duration-200'>
 						<Link to="contact" smooth={true} offset={-40} duration={700}>
 							Contact
 						</Link>
+					</li>
+					<li className='hover:scale-95 cursor-pointer duration-200'>
+						<a href="https://have-mycard.vercel.app/LoginPage?isLoggingIn=false" smooth={true} offset={-40} duration={700}>
+							Sign-Up
+						</a>
 					</li>
 					{/* Add more links for other sections */}
 				</ul>
