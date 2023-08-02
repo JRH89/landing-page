@@ -25,7 +25,7 @@ const WeatherSection = () => {
 						</p>
 					</div>
 
-					<div className='flex flex-row justify-center gap-5'>
+					<div className='flex flex-row justify-center gap-5 mb-4'>
 						<div className="bg-gray-800 rounded-lg p-6 w-96">
 							<h3 className="text-xl font-semibold mb-2 underline">Detailed Weather Forecasts</h3>
 							<p>
