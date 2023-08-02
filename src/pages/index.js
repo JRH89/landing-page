@@ -9,6 +9,8 @@ import TodoListSection from '../components/TodoListSection'
 import ContactSection from '../components/ContactSection'
 import AndroidVersionSection from '@/components/AndroidVersionSection'
 import Footer from '@/components/Footer'
+import QRCodeGenerator from '@/components/QRCodeGenerator'
+
 const Home = () => {
   return (
     <div>
@@ -16,8 +18,9 @@ const Home = () => {
       <HeroSection />
       <AboutSection />
       <CardSection />
-      <WeatherSection />
+      <QRCodeGenerator />
       <TodoListSection />
+      <WeatherSection />
       <AndroidVersionSection />
       <ContactSection />
       <Footer />

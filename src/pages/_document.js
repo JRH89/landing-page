@@ -7,10 +7,11 @@ export default class MyDocument extends Document {
         <Head>
           {/* Font Awesome */}
           <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-            integrity="sha512-n8j2AIVW+xjS26+X4jIHxOcIuV3huzH1pyoytNvWt9wyWlguorHvj4l7u0Eqh7JcPRU5kT7B/GHz/axzIEhSg=="
-            crossOrigin="anonymous"
+            rel='stylesheet'
+            href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css'
+            integrity='sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=='
+            crossOrigin='anonymous'
+            referrerPolicy='no-referrer'
           />
           <link rel="icon" href="/HookerHill.jpg" />
           {/* Open Graph Meta Tags */}
