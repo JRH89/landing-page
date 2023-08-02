@@ -27,21 +27,25 @@ const CardSection = () => {
 		<section id="cards" className="py-12 text-center px-4 bg-gradient-to-r from-gray-800 mx-auto my-auto via-gray-700 to-gray-900 text-white border-b border-white">
 			<div className="container mx-auto">
 				<h2 className="text-3xl font-bold mb-4">Create Stunning Cards</h2>
-				<div className="grid gap-8 grid-cols-1">
-					<div>
-						<h3 className="text-xl font-semibold mb-2 underline">Showcase Your Professional Identity</h3>
-						<p>
-							With our digital business card, you can display essential contact information such as
-							your name, phone number, email, and job title. Impress your contacts with a sleek and
-							modern design that reflects your professional identity.
-						</p>
-					</div>
-					<div>
-						<h3 className="text-xl font-semibold mb-2 underline">Customize Your Online Presence</h3>
-						<p>
-							Add 1-4 links to your social media profiles, online portfolios, or personal website.
-							Showcase your work and connect with others through your digital business card.
-						</p>
+				<div className="grid gap-8 grid-cols-1 justify-center w-full items-center content-center">
+					<div className="flex w-full  self-center grid-cols-2">
+						<div className="p-5 place-self-center w-full">
+							<h3 className="text-xl font-semibold mb-2 underline">Showcase Your Professional Identity</h3>
+							<p>
+								With our digital business card, you can display essential contact information such as
+								your name, phone number, email, and job title. Impress your contacts with a sleek and
+								modern design that reflects your professional identity.
+							</p>
+						</div>
+
+						<div className="flex w-full   grid-cols-2">
+							<div className="p-5  w-full">
+								<h3 className="text-xl font-semibold mb-2 underline">Customize Your Online Presence</h3>
+								<p>
+									Add 1-4 links to your social media profiles, online portfolios, or personal website.
+									Showcase your work and connect with others through your digital business card.
+								</p>
+							</div></div>
 					</div>
 					<div className='flex flex-col text-center gap-10  justify-center'>
 						<h3 className="text-xl font-semibold mb-2 underline">Choose from Three Modern Themes</h3>
