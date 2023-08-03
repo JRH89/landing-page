@@ -52,6 +52,7 @@ const AndroidVersionSection = () => {
 							Our intuitive UI will help you become a My Card pro in no time.
 						</p>
 					</div>
+					<a className='text-green-400 hover:underline text-xl' href='https://play.google.com/store/apps/details?id=mycard.mycard'>Download from the Google Play store</a>
 				</div>
 			</div>
 		</section>
