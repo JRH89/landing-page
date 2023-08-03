@@ -29,8 +29,8 @@ const Navbar = () => {
 	return (
 		<nav className="fixed top-0 left-0 w-full z-50 bg-white shadow">
 			{/* Add the fixed scrollbar container with gradient background */}
-			<div className="container flex justify-center items-center text-center mx-auto pb-2 pt-1">
-				<ul className="flex text-black flex-row items-center space-x-6">
+			<div className="container flex justify-center items-center text-center mx-auto py-2">
+				<ul className="flex text-black flex-row items-center gap-10 sm:gap-20">
 					<li className="hover:scale-95 cursor-pointer duration-200">
 						<Link to="hero" smooth={true} duration={700}>
 							Home

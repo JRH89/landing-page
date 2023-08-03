@@ -24,8 +24,8 @@ const CardSection = () => {
 
 	const currentImage = images[currentImageIndex]
 	return (
-		<section id="cards" className="py-12 text-center px-6 bg-gradient-to-l from-gray-800 mx-auto my-auto via-gray-700 to-gray-900 text-white border-b border-white">
-			<div className="container mx-auto">
+		<section id="cards" className="py-12 text-center px-4 bg-gradient-to-l from-gray-800 mx-auto my-auto via-gray-700 to-gray-900 text-white border-b border-white">
+			<div className="container mx-auto max-w-[1000px]">
 				<h1 className='text-3xl'><i className="fa-regular fa-address-card text-blue-400"></i></h1>
 				<h2 className="text-3xl font-bold mb-4">Create Stunning Cards</h2>
 				<div className="grid gap-8 grid-cols-1 justify-center w-full items-center content-center">
