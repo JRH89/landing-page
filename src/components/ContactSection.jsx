@@ -5,13 +5,13 @@ const ContactSection = () => {
 	const emailAddress = 'mycarddigitalbusinesscards@gmail.com'
 	return (
 		<section id='contact' className="py-12 px-6 bg-gradient-to-b from-gray-800 via-gray-700 to-gray-900">
-			<div className="container mx-auto">
+			<div className="container mx-auto max-w-[1600px]">
 				<h2 className="text-3xl font-bold mb-4">Get in Touch</h2>
 				<div className="grid gap-8 grid-cols-1 ">
 					<div>
 						<h3 className="text-xl font-semibold mb-2">Contact Information</h3>
 						<p>
-							If you have any questions, suggestions, or need assistance with our app, feel free to contact us.
+							If you have any questions, suggestions, or need assistance with our app,<br />feel free to contact us.
 							We value your feedback and are here to help.
 						</p>
 						<p className="mt-4">Support Email:<br /><a className='text-green-400 hover:underline' href='mailto:mycarddigitalbusinesscards@gmail.com'>mycarddigitalbusinesscards@gmail.com</a></p>
