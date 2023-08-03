@@ -37,7 +37,7 @@ const Navbar = () => {
 						</Link>
 					</li>
 					<li className="hover:scale-95 cursor-pointer duration-200">
-						<Link to="about" smooth={true} offset={-25} duration={700}>
+						<Link to="about" smooth={true} offset={-40} duration={700}>
 							About
 						</Link>
 					</li>
@@ -48,27 +48,27 @@ const Navbar = () => {
 					>
 						<ul className="px-4  text-black w-full py-2 text-3xl space-y-2">
 							<li className="hover:scale-95 cursor-pointer duration-200 w-auto">
-								<Link title="Digital Cards" to="cards" smooth={true} offset={-25} duration={700}>
+								<Link title="Digital Cards" to="cards" smooth={true} offset={-40} duration={700}>
 									<i className="fa-regular fa-address-card text-blue-400"></i>
 								</Link>
 							</li>
 							<li className="hover:scale-95 cursor-pointer duration-200">
-								<Link title="QR Code Generator" to="qr-code-generator" smooth={true} offset={-25} duration={700}>
+								<Link title="QR Code Generator" to="qr-code-generator" smooth={true} offset={-40} duration={700}>
 									<i className="fa-solid fa-qrcode text-green-400"></i>
 								</Link>
 							</li>
 							<li className="hover:scale-95 cursor-pointer duration-200">
-								<Link title="Todo List" to="todo" offset={-25} smooth={true} duration={700}>
+								<Link title="Todo List" to="todo" offset={-40} smooth={true} duration={700}>
 									<i className="fa-solid fa-list-ol text-red-400"></i>
 								</Link>
 							</li>
 							<li className="hover:scale-95 cursor-pointer duration-200">
-								<Link title="Weather" to="weather" offset={-25} smooth={true} duration={700}>
+								<Link title="Weather" to="weather" offset={-40} smooth={true} duration={700}>
 									<i className="fa-solid fa-sun text-yellow-400"></i>
 								</Link>
 							</li>
 							<li className="hover:scale-95 cursor-pointer duration-200">
-								<Link title="My Card for Android" to="android-version" smooth={true} offset={-25} duration={700}>
+								<Link title="My Card for Android" to="android-version" smooth={true} offset={-40} duration={700}>
 									<i className="fa-brands fa-android text-neutral-950"></i>
 								</Link>
 							</li>
@@ -76,12 +76,12 @@ const Navbar = () => {
 						{/* Add other sections in the dropdown as needed */}
 					</Dropdown>
 					<li className="hover:scale-95 cursor-pointer duration-200">
-						<Link to="contact" smooth={true} offset={-25} duration={700}>
+						<Link to="contact" smooth={true} offset={-40} duration={700}>
 							Contact
 						</Link>
 					</li>
 					<li className="hover:scale-95 cursor-pointer duration-200">
-						<a href="https://have-mycard.vercel.app/LoginPage?isLoggingIn=false" smooth={true} offset={-25} duration={700}>
+						<a href="https://have-mycard.vercel.app/LoginPage?isLoggingIn=false" smooth={true} offset={-40} duration={700}>
 							Sign-Up
 						</a>
 					</li>
