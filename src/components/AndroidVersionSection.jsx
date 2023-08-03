@@ -34,7 +34,7 @@ const AndroidVersionSection = () => {
 							/>
 						</div>
 						<p>
-							Our sleek and modern layoust respond to all screen sizes and orientations.
+							Our sleek and modern layouts respond to all screen sizes and orientations.
 						</p>
 					</div>
 					<div className='gap-2 flex flex-col'>
