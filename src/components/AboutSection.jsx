@@ -4,7 +4,7 @@ import Image from 'next/image'
 const AboutSection = () => {
 	return (
 		<section id="about" className="py-12 px-4 text-center border-b mx-auto border-white bg-gradient-to-l min-h-screen from-gray-800 via-gray-700 to-gray-900 text-white flex justify-center items-center">
-			<div className="container gap-10 sm:gap-5 flex flex-col items-center mx-auto max-w-[1000px]">
+			<div className="container gap-5 flex flex-col items-center mx-auto max-w-[1000px]">
 				<h2 className="text-3xl font-bold">About The App</h2>
 				<p className="mb-4">
 					My Card allows you to create beautiful, modern business cards that showcase your contact information, social
