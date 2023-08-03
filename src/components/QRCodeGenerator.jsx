@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image'
 const QRCodeGeneratorSection = () => {
 	return (
 		<section id="qr-code-generator" className="py-12 px-6 border-b border-white text-center bg-gradient-to-l from-gray-800 via-gray-700 to-gray-900">
@@ -10,6 +10,14 @@ const QRCodeGeneratorSection = () => {
 					Create custom QR codes with our QR Code Generator. Simply enter the desired text or link and choose your
 					preferred foreground and background colors.
 				</p>
+				<div className='flex flex-col items-center mb-4'>
+					<Image
+						className=' max-w-sm border border-white'
+						width={528}
+						height={341}
+						src={"/Img9.png"}
+						alt='Img9'
+					/></div>
 				<p className="mb-4">
 					QR codes are an efficient way to share information, URLs, contact details, and more. Customize your QR code to
 					match your brand or personal style.

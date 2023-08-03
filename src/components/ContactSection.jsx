@@ -14,8 +14,8 @@ const ContactSection = () => {
 							If you have any questions, suggestions, or need assistance with our app, feel free to contact us.
 							We value your feedback and are here to help.
 						</p>
-						<p className="mt-4">Support Email: <a className='text-green-400 hover:underline' href='mailto:mycarddigitalbusinesscards@gmail.com'>mycarddigitalbusinesscards@gmail.com</a></p>
-						<p className="mt-4">Developer Email: <a className='text-green-400 hover:underline' href='mailto:hookerhillstudios@gmail.com'>hookerhillstudios@gmail.com</a></p>
+						<p className="mt-4">Support Email:<br /><a className='text-green-400 hover:underline' href='mailto:mycarddigitalbusinesscards@gmail.com'>mycarddigitalbusinesscards@gmail.com</a></p>
+						<p className="mt-4">Developer Email:<br /><a className='text-green-400 hover:underline' href='mailto:hookerhillstudios@gmail.com'>hookerhillstudios@gmail.com</a></p>
 					</div>
 
 				</div>
