@@ -3,7 +3,7 @@ import Image from 'next/image'
 const AboutSection = () => {
 	return (
 		<section id="about" className="py-12 px-4 text-center border-b my-auto mx-auto border-white bg-gradient-to-l min-h-screen from-gray-800 via-gray-700 to-gray-900 text-white">
-			<div className="container gap-5 flex flex-col  mx-auto">
+			<div className="container gap-10 flex flex-col  mx-auto">
 				<h2 className="text-3xl font-bold">About The App</h2>
 				<p className=' text-center mx-5 md:mx-20'>
 					My Card allows you to create beautiful, modern business cards that showcase your

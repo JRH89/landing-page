@@ -26,8 +26,8 @@ const WeatherSection = () => {
 						</p>
 					</div>
 
-					<div className='flex flex-row justify-center gap-5 mb-4'>
-						<div className="bg-gray-800 rounded-lg p-6 w-96">
+					<div className="grid mx-5 sm:mx-0 gap-4 grid-cols-1 sm:grid-cols-2">
+						<div className="bg-gray-800 rounded-lg p-6 ">
 							<h3 className="text-xl font-semibold mb-2 underline">Detailed Weather Forecasts</h3>
 							<p>
 								Stay informed with both short-term and long-term forecasts. The weather page provides
@@ -35,7 +35,7 @@ const WeatherSection = () => {
 								weather conditions.
 							</p>
 						</div>
-						<div className="bg-gray-800 rounded-lg p-6 w-96">
+						<div className="bg-gray-800 rounded-lg p-6">
 							<h3 className="text-xl font-semibold mb-2 underline">Metric and Imperial Units</h3>
 							<p>
 								Whether you prefer metric or imperial units, we&apos;ve got you covered. Our weather page

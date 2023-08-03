@@ -25,13 +25,18 @@ const Navbar = () => {
 								</Link>
 							</li>
 							<li className='hover:scale-95 cursor-pointer duration-200'>
-								<Link to="weather" offset={-25} smooth={true} duration={700}>
-									Weather
+								<Link to="qr-code-generator" smooth={true} offset={-25} duration={700}>
+									QRCodes
 								</Link>
 							</li>
 							<li className='hover:scale-95 cursor-pointer duration-200'>
 								<Link to="todo" offset={-25} smooth={true} duration={700}>
 									Todo
+								</Link>
+							</li>
+							<li className='hover:scale-95 cursor-pointer duration-200'>
+								<Link to="weather" offset={-25} smooth={true} duration={700}>
+									Weather
 								</Link>
 							</li>
 							<li className='hover:scale-95 cursor-pointer duration-200'>

@@ -94,7 +94,7 @@ const CardSection = () => {
 				</div>
 
 				<div className="flex w-full justify-center mt-4">
-					<div className="w-full max-w-screen-lg grid grid-cols-2">
+					<div className="grid mx-5 sm:mx-0 gap-4 grid-cols-1 sm:grid-cols-2">
 						<div className="m-5 flex flex-col">
 							<div className="bg-gray-800 rounded-lg p-6 flex-grow">
 								<h3 className="text-xl font-semibold mb-2 underline">Showcase Your Identity</h3>

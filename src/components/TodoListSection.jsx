@@ -13,7 +13,7 @@ const TodoListSection = () => {
 					src={"/Img6.png"}
 					alt='Img6'
 				/>
-				<div className="grid grid-cols-2 gap-4 mb-4">
+				<div className="grid mx-5 sm:mx-0 gap-4 grid-cols-1 sm:grid-cols-2">
 					<div className="bg-gray-800 rounded-lg p-6">
 						<p>
 							With our app&apos;s built-in Todo List feature, you can manage and organize your tasks effectively.
