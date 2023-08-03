@@ -92,9 +92,9 @@ const Navbar = () => {
 
 			</div>
 			<div className='flex justify-center mb-1'>
-				<div className="w-[250px] relative border-2 shadow-inner shadow-black bg-red-500 border-neutral-300 max-w-[300px] h-4 flex rounded-lg">
+				<div className="w-full relative border-2 shadow-inner shadow-black bg-red-500 border-neutral-950 max-w-[300px] h-3 flex rounded-lg">
 					<div
-						className="bg-green-400 shadow-md shadow-green-400/70 h-full rounded-lg"
+						className="bg-green-400 shadow-md shadow-green-400 h-full rounded-lg"
 						style={{ width: `${scrollPercentage}%` }}
 					/>
 				</div></div>
