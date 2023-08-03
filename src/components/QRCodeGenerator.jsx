@@ -4,7 +4,7 @@ const QRCodeGeneratorSection = () => {
 	return (
 		<section id="qr-code-generator" className="py-12 px-6 border-b border-white text-center bg-gradient-to-l from-gray-800 via-gray-700 to-gray-900">
 			<div className="container mx-auto">
-				<h1 className='text-3xl'><i className="fa-solid fa-qrcode rounded-lg"></i></h1>
+				<h1 className='text-3xl'><i className="fa-solid fa-qrcode rounded-lg text-green-400"></i></h1>
 				<h2 className="text-3xl font-bold mb-4">QR Code Generator</h2>
 				<p className="mb-4">
 					Create custom QR codes with our QR Code Generator. Simply enter the desired text or link and choose your

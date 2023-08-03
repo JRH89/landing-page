@@ -1,5 +1,5 @@
 // pages/index.js
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Navbar from '../components/Navbar'
 import HeroSection from '../components/HeroSection'
 import AboutSection from '../components/AboutSection'
@@ -12,19 +12,25 @@ import Footer from '@/components/Footer'
 import QRCodeGenerator from '@/components/QRCodeGenerator'
 
 const Home = () => {
-  return (
-    <div>
-      <Navbar />
-      <HeroSection />
-      <AboutSection />
-      <CardSection />
-      <QRCodeGenerator />
-      <TodoListSection />
-      <WeatherSection />
-      <AndroidVersionSection />
-      <ContactSection />
-      <Footer />
-    </div>
+
+
+
+  return (<>
+
+    <Navbar />
+    <HeroSection />
+    <AboutSection />
+    <CardSection />
+    <QRCodeGenerator />
+    <TodoListSection />
+    <WeatherSection />
+    <AndroidVersionSection />
+    <ContactSection />
+
+    <Footer />
+
+    {/* Add the scrollbar container */}
+  </>
   )
 }
 

@@ -9,7 +9,7 @@ const Dropdown = ({ title, children }) => {
 	}
 
 	return (
-		<li className="relative">
+		<li className="relative z-50">
 			<button
 				onClick={toggleDropdown}
 				className="flex items-center space-x-1 text-black cursor-pointer"
