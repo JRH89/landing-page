@@ -15,7 +15,7 @@ const Home = () => {
 
 
 
-  return (<>
+  return (<div className="select-none">
 
     <Navbar />
     <HeroSection />
@@ -30,7 +30,7 @@ const Home = () => {
     <Footer />
 
     {/* Add the scrollbar container */}
-  </>
+  </div>
   )
 }
 
