@@ -26,7 +26,7 @@ const WeatherSection = () => {
 						</p>
 					</div>
 
-					<div className="grid mx-5 sm:mx-0 gap-4 grid-cols-1 sm:grid-cols-2">
+					<div className="grid mx-5 mb-4 sm:mx-0 gap-4 grid-cols-1 sm:grid-cols-2">
 						<div className="bg-gray-800 rounded-lg p-6 ">
 							<h3 className="text-xl font-semibold mb-2 underline">Detailed Weather Forecasts</h3>
 							<p>

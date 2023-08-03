@@ -5,7 +5,7 @@ const TodoListSection = () => {
 		<section id="todo" className="py-12 text-center flex justify-center flex-col px-4 bg-gradient-to-l from-gray-800 via-gray-700 to-gray-900 text-white border-b border-white">
 			<div className="container mx-auto flex justify-center flex-col items-center">
 				<h1 className='text-3xl'><i className="fa-solid fa-list-ol rounded-lg"></i></h1>
-				<h2 className="text-3xl font-bold mb-4">Keep Your To-Do List Organized</h2>
+				<h2 className="text-3xl font-bold mb-4"> To-Do List</h2>
 				<Image
 					className='my-6 border border-white max-w-sm'
 					width={609}
@@ -13,7 +13,7 @@ const TodoListSection = () => {
 					src={"/Img6.png"}
 					alt='Img6'
 				/>
-				<div className="grid mx-5 sm:mx-0 gap-4 grid-cols-1 sm:grid-cols-2">
+				<div className="grid mx-5 sm:mx-0 gap-4 grid-cols-1 sm:grid-cols-2 mb-5">
 					<div className="bg-gray-800 rounded-lg p-6">
 						<p>
 							With our app&apos;s built-in Todo List feature, you can manage and organize your tasks effectively.
