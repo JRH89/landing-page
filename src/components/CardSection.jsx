@@ -24,7 +24,7 @@ const CardSection = () => {
 
 	const currentImage = images[currentImageIndex]
 	return (
-		<section id="cards" className="py-12 text-center px-4 bg-gradient-to-l from-gray-800 mx-auto my-auto via-gray-700 to-gray-900 text-white border-b border-white">
+		<section id="cards" className="py-12 text-center px-6 bg-gradient-to-l from-gray-800 mx-auto my-auto via-gray-700 to-gray-900 text-white border-b border-white">
 			<div className="container mx-auto">
 				<h1 className='text-3xl'><i className="fa-regular fa-address-card"></i></h1>
 				<h2 className="text-3xl font-bold mb-4">Create Stunning Cards</h2>
@@ -72,7 +72,7 @@ const CardSection = () => {
 							brand and style.
 						</p>
 					</div>
-					<div className='flex flex-col text-center'>
+					<div className='flex flex-col text-center mb-5'>
 						<h3 className="text-xl font-semibold mb-5 underline">Share with Ease</h3>
 
 						<div className='flex flex-col gap-2 justify-center'>
@@ -93,30 +93,30 @@ const CardSection = () => {
 					</div>
 				</div>
 
-				<div className="flex w-full justify-center mt-4">
-					<div className="grid mx-5 sm:mx-0 gap-4 grid-cols-1 sm:grid-cols-2">
-						<div className="m-5 flex flex-col">
-							<div className="bg-gray-800 rounded-lg p-6 flex-grow">
-								<h3 className="text-xl font-semibold mb-2 underline">Showcase Your Identity</h3>
-								<p className="">
-									With our digital business card, you can display essential contact information such as your
-									name, phone number, email, and job title.
-								</p>
-							</div>
+
+				<div className="grid mx-5 sm:mx-0 gap-4 grid-cols-1 sm:grid-cols-2">
+					<div className=" flex flex-col">
+						<div className="bg-gray-800 rounded-lg p-6 flex-grow">
+							<h3 className="text-xl font-semibold mb-2 underline">Showcase Your Identity</h3>
+							<p className="">
+								With our digital business card, you can display essential contact information such as your
+								name, phone number, email, and job title.
+							</p>
 						</div>
-						<div className="m-5 flex flex-col">
-							<div className="bg-gray-800 rounded-lg p-6 flex-grow">
-								<h3 className="text-xl font-semibold mb-2 underline">Customize Your Presence</h3>
-								<p className="">
-									Add 1-4 links to your social media profiles, online portfolios, or personal website.
-									Showcase your work and connect with others through your digital business card.
-								</p>
-							</div>
+					</div>
+					<div className=" flex flex-col">
+						<div className="bg-gray-800 rounded-lg p-6 flex-grow">
+							<h3 className="text-xl font-semibold mb-2 underline">Customize Your Presence</h3>
+							<p className="">
+								Add 1-4 links to your social media profiles, online portfolios, or personal website.
+								Showcase your work and connect with others through your digital business card.
+							</p>
 						</div>
 					</div>
 				</div>
-
 			</div>
+
+
 		</section>
 	)
 }
