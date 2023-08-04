@@ -1,10 +1,8 @@
 import React, { useState } from 'react'
-import { Link } from 'react-scroll'
 import Image from 'next/image'
 
 
 const CardSection = () => {
-
 
 	const images = [
 		{ title: 'Classic', src: '/Classic.png', width: 411, height: 590 },
@@ -23,17 +21,20 @@ const CardSection = () => {
 	}
 
 	const currentImage = images[currentImageIndex]
+
+
 	return (
 		<section id="cards" className="py-12 text-center px-4 bg-gradient-to-l from-gray-800 mx-auto my-auto via-gray-700 to-gray-900 text-white border-b border-white">
 			<div className="container mx-auto max-w-[1000px]">
 				<h1 className='text-3xl'><i className="fa-regular fa-address-card text-blue-400"></i></h1>
 				<h2 className="text-3xl font-bold mb-4">Create Stunning Cards</h2>
-				<div className="grid gap-8 grid-cols-1 justify-center w-full items-center content-center">
-
-
-					<div className='flex flex-col text-center gap-5 justify-center'>
-						<h3 className="text-xl font-semibold mb-2 underline">Choose from Three Modern Themes</h3>
-						<div className='flex w-full sm:justify-center justify-center gap-2 '>
+				<div className="grid gap-20 grid-cols-1 justify-center w-full items-center content-center">
+					<div className='flex flex-col text-center gap-2 justify-center'>
+						<h3 className="text-xl font-semibold mt-10 underline">Choose from Three Modern Themes</h3>
+						<div className='flex w-full sm:justify-center justify-center gap-2 flex-col'>
+							<h3 className="text-white text-xl font-semibold text-center">
+								{currentImage.title}
+							</h3>
 							<div className="flex items-center justify-center">
 								<button
 									onClick={showPreviousImage}
@@ -51,11 +52,7 @@ const CardSection = () => {
 										alt={currentImage.title}
 									/>
 									<div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-
 									</div>
-									<h3 className="text-white text-xl font-semibold text-center pt-4">
-										{currentImage.title}
-									</h3>
 								</div>
 
 								<button
@@ -92,9 +89,7 @@ const CardSection = () => {
 						</p>
 					</div>
 				</div>
-
-
-				<div className="grid mx-5 sm:mx-0 gap-4 grid-cols-1 sm:grid-cols-2">
+				<div className="grid mt-4 mx-5 sm:mx-0 gap-4 grid-cols-1 sm:grid-cols-2">
 					<div className=" flex flex-col">
 						<div className="bg-gray-800 rounded-lg p-6 flex-grow">
 							<h3 className="text-xl font-semibold mb-2 underline">Showcase Your Identity</h3>
