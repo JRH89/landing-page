@@ -7,10 +7,10 @@ const TodoListSection = () => {
 				<h1 className='text-3xl'><i className="fa-solid fa-list-ol rounded-lg text-red-400"></i></h1>
 				<h2 className="text-3xl font-bold mb-5">ToDo List</h2>
 
-				<div className='flex flex-col gap-8 justify-center items-center'>
-					<p className="">
-						Completed a task? Congratulations! You can instantly delete a task with a single click or tap.
-						Feel a sense of accomplishment as you tick off completed tasks from your list.
+				<div className='flex flex-col gap-5 justify-center items-center'>
+					<p>
+						Stay organized, efficient, and focused on what matters. Let our Todo List be your digital assistant
+						in managing your daily tasks and achieving your goals.
 					</p>
 					<Image
 						className=' border border-white max-w-sm'
@@ -20,10 +20,10 @@ const TodoListSection = () => {
 						alt='Img6'
 					/>
 					<p>
-						Stay organized, efficient, and focused on what matters. Let our Todo List be your digital assistant
-						in managing your daily tasks and achieving your goals.
+						Completed a task? Congratulations! You can instantly delete a task with a single click or tap.
+						Feel a sense of accomplishment as you tick off completed tasks from your list.
 					</p>
-					<div className="grid mx-5 sm:mx-0 gap-4 grid-cols-1 sm:grid-cols-2 mb-5">
+					<div className="grid mx-5 sm:mx-0 gap-4 grid-cols-1 sm:grid-cols-2 mt-4">
 						<div className="bg-gray-800 rounded-lg p-6">
 							<p>
 								With our app&apos;s built-in Todo List feature, you can manage and organize your tasks effectively.

@@ -29,7 +29,7 @@ const CardSection = () => {
 				<h1 className='text-3xl'><i className="fa-regular fa-address-card text-blue-400"></i></h1>
 				<h2 className="text-3xl font-bold mb-4">Create Stunning Cards</h2>
 				<div className="grid gap-20 grid-cols-1 justify-center w-full items-center content-center">
-					<div className='flex flex-col text-center gap-2 justify-center'>
+					<div className='flex flex-col text-center gap-5 justify-center'>
 						<h3 className="text-xl font-semibold mt-10 underline">Choose from Three Modern Themes</h3>
 						<div className='flex w-full sm:justify-center justify-center gap-2 flex-col'>
 							<h3 className="text-white text-xl font-semibold text-center">
@@ -64,15 +64,15 @@ const CardSection = () => {
 							</div>
 						</div>
 						<p>
-							Our app offers three stunning themes for your digital business card. Whether you prefer
+							My Card offers three stunning themes for your digital business card. Whether you prefer
 							a minimalistic look or a bold design, you&apos;ll find the perfect theme to represent your
 							brand and style.
 						</p>
 					</div>
-					<div className='flex flex-col text-center mb-5'>
+					<div className='flex flex-col text-center mb-20'>
 						<h3 className="text-xl font-semibold mb-5 underline">Share with Ease</h3>
 
-						<div className='flex flex-col gap-2 justify-center'>
+						<div className='flex flex-col gap-5 justify-center'>
 							<Image
 								className='self-center'
 								width={256}
