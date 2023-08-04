@@ -7,7 +7,7 @@ const HeroSection = () => {
 			<div className="text-center flex flex-col gap-3">
 				<h1 className="text-4xl font-bold text-white">Welcome to My Card!</h1>
 				<p className="text-white">Create and share personalized digital business cards with ease.</p>
-				<Link to="about" smooth={true} offset={-40} duration={500} className="bg-white mx-auto text-gray-900 px-6 py-2 rounded-full hover:scale-95 duration-200 cursor-pointer">
+				<Link to="about" smooth={true} offset={-20} duration={500} className="bg-white mx-auto text-gray-900 px-6 py-2 rounded-full hover:scale-95 duration-200 cursor-pointer">
 					Learn More
 				</Link>
 			</div>
