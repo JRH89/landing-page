@@ -91,7 +91,7 @@ const CardSection = () => {
 					<h3 className="text-xl font-semibold mb-8 underline">Upload a Photo or Logo</h3>
 					<div className="relative w-60 md:w-80 max-w-sm self-center">
 						<Image
-
+							className='border border-white'
 							alt='contactsample'
 							width={1080}
 							height={1121}
