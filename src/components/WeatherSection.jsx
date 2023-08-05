@@ -30,7 +30,6 @@ const WeatherSection = () => {
 							for easy access to weather updates.
 						</p>
 					</div>
-
 					<div className="bg-gray-800 rounded-lg p-6 ">
 						<h3 className="text-xl font-semibold mb-2 underline">Detailed Weather Forecasts</h3>
 						<p>
@@ -58,8 +57,6 @@ const WeatherSection = () => {
 							user dashboard. Stay updated on the go without having to navigate to the weather page.
 						</p>
 					</div>
-
-
 					<div className="bg-gray-800 rounded-lg p-6">
 						<h3 className="text-xl font-semibold mb-2 underline">
 							Metric and Imperial Units
@@ -70,8 +67,6 @@ const WeatherSection = () => {
 							information in the units you are most comfortable with.
 						</p>
 					</div>
-
-
 				</div>
 			</div>
 		</section>
