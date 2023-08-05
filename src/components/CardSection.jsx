@@ -69,17 +69,20 @@ const CardSection = () => {
 							brand and style.
 						</p>
 					</div>
-					<div className='flex flex-col text-center mb-20'>
-						<h3 className="text-xl font-semibold mb-5 underline">Share with Ease</h3>
+					<div className='flex flex-col text-center mb-20 w-full'>
+						<h3 className="text-xl font-semibold mb-8 underline">Share with Ease</h3>
 
-						<div className='flex flex-col gap-5 justify-center'>
-							<Image
-								className='self-center'
-								width={256}
-								height={256}
-								src={"/sampleqr.png"}
-							/>
-							<a className='text-green-600 text-center mb-4' href='https://next-mycard.vercel.app/api/0DRdJxPS'>https://next-mycard.vercel.app/api/0DRdJxPS</a>
+						<div className='flex flex-col gap-5 justify-center w-full'>
+							<div className="relative w-60 md:w-80  max-w-sm self-center items-center ">
+								<Image
+									alt='sample-qr'
+									className='self-center max-w-sm items-center'
+									width={256}
+									height={256}
+									src={"/sampleqr.png"}
+								/>
+							</div>
+							<a className='text-green-600 text-center mb-4 hover:underline' href='https://next-mycard.vercel.app/api/0DRdJxPS'>https://next-mycard.vercel.app/api/0DRdJxPS</a>
 						</div>
 
 						<p>
@@ -89,6 +92,23 @@ const CardSection = () => {
 						</p>
 					</div>
 				</div>
+
+				<div className='flex flex-col mb-20'>
+					<h3 className="text-xl font-semibold mb-8 underline">Upload a Photo or Logo</h3>
+					<div className="relative w-60 md:w-80 max-w-sm self-center">
+						<Image
+
+							alt='contactsample'
+							width={1080}
+							height={1121}
+							src={"/contactsample.png"}
+						/>
+					</div>
+					<p className='mt-5'>Upload a photo or logo that will be used as your contact photo when your digital business card is downloaded and saved to an address book.</p>
+				</div>
+
+
+
 				<div className="grid mt-4 mx-5 sm:mx-0 gap-4 grid-cols-1 sm:grid-cols-2">
 					<div className=" flex flex-col">
 						<div className="bg-gray-800 rounded-lg p-6 flex-grow">
