@@ -70,10 +70,11 @@ const CardSection = () => {
 						</p>
 					</div>
 					<div className='flex flex-col text-center mb-20'>
-						<h3 className="text-xl font-semibold mb-5 underline">Share with Ease</h3>
+						<h3 className="text-xl font-semibold mb-8 underline">Share with Ease</h3>
 
 						<div className='flex flex-col gap-5 justify-center'>
 							<Image
+								alt='sample-qr'
 								className='self-center'
 								width={256}
 								height={256}
