@@ -2,14 +2,19 @@ import React from 'react'
 import Image from 'next/image'
 
 const WeatherSection = () => {
+
 	return (
 		<section id="weather" className="py-12 text-center flex justify-center flex-col px-4 bg-gradient-to-l from-gray-800 via-gray-700 to-gray-900 text-white border-b border-white">
 			<div className="container max-w-[1000px] mx-auto">
 				<h1 className='text-3xl'><i className="fa-solid fa-sun rounded-lg text-yellow-400"></i></h1>
-				<h2 className="text-3xl font-bold mb-4">Check the Weather</h2>
+				<h2 className="text-3xl font-bold mb-4">
+					Check the Weather
+				</h2>
 				<div className="grid justify-center gap-8 md:gap-4 grid-cols-1">
 					<div className="flex flex-col items-center">
-						<h3 className="text-xl font-semibold mb-2 underline">Favorite City Weather</h3>
+						<h3 className="text-xl font-semibold mb-2 underline">
+							Favorite City Weather
+						</h3>
 						<div className="self-center">
 							<Image
 								alt='Img5'
@@ -26,27 +31,18 @@ const WeatherSection = () => {
 						</p>
 					</div>
 
-					<div className="grid mx-5 mb-4 sm:mx-0 gap-4 grid-cols-1 sm:grid-cols-2">
-						<div className="bg-gray-800 rounded-lg p-6 ">
-							<h3 className="text-xl font-semibold mb-2 underline">Detailed Weather Forecasts</h3>
-							<p>
-								Stay informed with both short-term and long-term forecasts. The weather page provides
-								both 3-hour and 5-day forecasts, giving you a comprehensive overview of the expected
-								weather conditions.
-							</p>
-						</div>
-						<div className="bg-gray-800 rounded-lg p-6">
-							<h3 className="text-xl font-semibold mb-2 underline">Metric and Imperial Units</h3>
-							<p>
-								Whether you prefer metric or imperial units, we&apos;ve got you covered. Our weather page
-								lets you toggle between Celsius and Fahrenheit, ensuring you get the weather
-								information in the units you are most comfortable with.
-							</p>
-						</div>
+					<div className="bg-gray-800 rounded-lg p-6 ">
+						<h3 className="text-xl font-semibold mb-2 underline">Detailed Weather Forecasts</h3>
+						<p>
+							Stay informed with both short-term and long-term forecasts. The weather page provides
+							both 3-hour and 5-day forecasts, giving you a comprehensive overview of the expected
+							weather conditions.
+						</p>
 					</div>
-
-					<div className="flex flex-col items-center">
-						<h3 className="text-xl font-semibold mb-2 underline">Weather Widget for User Dashboard</h3>
+					<div className="flex flex-col items-center my-4">
+						<h3 className="text-xl font-semibold mb-2 underline">
+							Weather Widget for User Dashboard
+						</h3>
 						<div className="self-center">
 							<Image
 								className='border border-white mb-4'
@@ -62,8 +58,21 @@ const WeatherSection = () => {
 							user dashboard. Stay updated on the go without having to navigate to the weather page.
 						</p>
 					</div>
+
+
+					<div className="bg-gray-800 rounded-lg p-6">
+						<h3 className="text-xl font-semibold mb-2 underline">
+							Metric and Imperial Units
+						</h3>
+						<p>
+							Whether you prefer metric or imperial units, we&apos;ve got you covered. Our weather page
+							lets you toggle between Celsius and Fahrenheit, ensuring you get the weather
+							information in the units you are most comfortable with.
+						</p>
+					</div>
+
+
 				</div>
-				{/* Add more content and styling as needed */}
 			</div>
 		</section>
 	)
