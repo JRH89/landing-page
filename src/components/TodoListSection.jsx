@@ -6,8 +6,9 @@ const TodoListSection = () => {
 		<section id="todo" className="py-12 text-center flex min-h-screen justify-center flex-col px-4 bg-gradient-to-l from-gray-800 via-gray-700 to-gray-900 text-white border-b border-white">
 			<div className="container mx-auto max-w-[1000px] flex justify-center flex-col items-center">
 				<h1 className='text-3xl'><i className="fa-solid fa-list-ol rounded-lg text-red-400"></i></h1>
-				<h2 className="text-3xl font-bold mb-5">ToDo List</h2>
-
+				<h2 className="text-3xl font-bold mb-5">
+					ToDo List
+				</h2>
 				<div className='flex flex-col gap-5 justify-center items-center'>
 					<p>
 						Stay organized, efficient, and focused on what matters. Let our Todo List be your digital assistant
