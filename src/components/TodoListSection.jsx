@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+
 const TodoListSection = () => {
 	return (
 		<section id="todo" className="py-12 text-center flex min-h-screen justify-center flex-col px-4 bg-gradient-to-l from-gray-800 via-gray-700 to-gray-900 text-white border-b border-white">
