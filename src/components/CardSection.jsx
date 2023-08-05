@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import Image from 'next/image'
 
-
 const CardSection = () => {
 
 	const images = [
@@ -21,7 +20,6 @@ const CardSection = () => {
 	}
 
 	const currentImage = images[currentImageIndex]
-
 
 	return (
 		<section id="cards" className="py-12 text-center px-4 bg-gradient-to-l from-gray-800 mx-auto my-auto via-gray-700 to-gray-900 text-white border-b border-white">
@@ -71,7 +69,6 @@ const CardSection = () => {
 					</div>
 					<div className='flex flex-col text-center mb-20'>
 						<h3 className="text-xl font-semibold mb-8 underline">Share with Ease</h3>
-
 						<div className='flex flex-col gap-5 justify-center'>
 							<Image
 								alt='sample-qr'
@@ -90,7 +87,6 @@ const CardSection = () => {
 						</p>
 					</div>
 				</div>
-
 				<div className='flex flex-col mb-20'>
 					<h3 className="text-xl font-semibold mb-8 underline">Upload a Photo or Logo</h3>
 					<div className="relative w-60 md:w-80 max-w-sm self-center">
@@ -104,9 +100,6 @@ const CardSection = () => {
 					</div>
 					<p className='mt-5'>Upload a photo or logo that will be used as your contact photo when your digital business card is downloaded and saved to an address book.</p>
 				</div>
-
-
-
 				<div className="grid mt-4 mx-5 sm:mx-0 gap-4 grid-cols-1 sm:grid-cols-2">
 					<div className=" flex flex-col">
 						<div className="bg-gray-800 rounded-lg p-6 flex-grow">
@@ -128,11 +121,8 @@ const CardSection = () => {
 					</div>
 				</div>
 			</div>
-
-
 		</section>
 	)
 }
 
-export default CardSection;
-
+export default CardSection
