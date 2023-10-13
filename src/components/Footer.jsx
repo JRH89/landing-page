@@ -6,7 +6,7 @@ const Footer = () => {
 			<p>
 				Powered by{' '}
 				<a
-					href="https://hooker-hill-studios.vercel.app"
+					href="https://www.hookerhillstudios.com"
 					target="_blank"
 					rel="noopener noreferrer"
 					className="text-blue-500 hover:underline"
